@@ -1,0 +1,65 @@
+.env
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.chroma/
+*.log
+.DS_Store
+
+
+.env
+.env.*
+.env.example
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+rag_env/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Chroma / vector database
+chroma/
+chroma_db/
+
+# Uploaded documents / local data
+uploads/
+documents/
+data/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg-info/
